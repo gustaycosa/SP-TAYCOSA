@@ -65,15 +65,15 @@ try{
                 { data: 'Fum' }
             ],
             columnDefs: [
-                { 'title': 'USUARIO', className: "text-left", 'targets': 0},
-                { 'title': 'PASS', className: "text-left", 'targets': 1},
-                { 'title': 'NOMBRE', className: "text-left", 'targets': 2},
-                { 'title': 'PERFIL', className: "text-left", 'targets': 3},
-                { 'title': 'GRUPO', className: "text-left", 'targets': 4},
-                { 'title': 'TELEFONO', className: "text-left", 'targets': 5},
-                { 'title': 'CORREO', className: "text-left", 'targets': 6},
-                { 'title': 'PASSCORREO', className: "text-left", 'targets': 7},
-                { 'title': 'FECHA', className: "text-left", 'targets': 8}
+                { 'title': 'USUARIO', 'width': '70px',  className: "text-left", 'targets': 0},
+                { 'title': 'PASS',  'width': '70px',  className: "text-left", 'targets': 1},
+                { 'title': 'NOMBRE',  'width': '70px',  className: "text-left", 'targets': 2},
+                { 'title': 'PERFIL',  'width': '70px',  className: "text-left", 'targets': 3},
+                { 'title': 'GRUPO',  'width': '70px',  className: "text-left", 'targets': 4},
+                { 'title': 'TELEFONO',  'width': '70px',  className: "text-left", 'targets': 5},
+                { 'title': 'CORREO',  'width': '70px',  className: "text-left", 'targets': 6},
+                { 'title': 'PASSCORREO',  'width': '70px',  className: "text-left", 'targets': 7},
+                { 'title': 'FECHA',  'width': '70px',  className: "text-left", 'targets': 8},
             ],
             'createdRow': function ( row, data, index ) {
                 $(row).attr({ id:data.id});

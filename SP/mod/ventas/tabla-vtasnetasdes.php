@@ -46,16 +46,13 @@ try{
             echo json_encode($arreglo);
         ?>
 		;
-		include("../../funciones.php");
 /*
 			$sGridNomb = '#gridfact';
 			$sWsNomb = 'vtas_netasfact';
 			$aColumnas = array("Fecha","Id_Sucursal","Serie","Folio","Id_cliente","Nombre","Concepto","Total");
 			$aTitulos =  array("Fecha","Id_Sucursal","Serie","Folio","Id_cliente","Nombre","Concepto","Total");
 			echo GrdRptShort($sGridNomb,$sWsNomb,$aColumnas,$aTitulos);
-            */
-		?>
-
+*/
  $(document).ready(function() {
          var table = $('#gridfact').DataTable({
             data:datos,

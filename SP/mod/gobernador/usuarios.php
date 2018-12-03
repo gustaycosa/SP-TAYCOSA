@@ -3,7 +3,7 @@
 <html class="no-js">
 
 <?php 
-    <?php include("../../funciones.php"); 
+    include("../../funciones.php"); 
     $TituloPantalla = 'Usuarios';
     echo Cabecera($TituloPantalla);    
 ?>
@@ -12,7 +12,7 @@
         <div class="panel panel-default">
             <div class="panel-heading">
                 <h6 id="cabecera">
-                    <?php echo $TituloPantalla; /*Incluir modal nvo*/?>
+                    <?php echo $TituloPantalla; ?>
                 </h6>
             </div>
             <div class="panel-body">
@@ -204,17 +204,17 @@
         }); 
         
         $(document).on('dblclick','#grid tr',function(){
+            /*
             var id = $(this).attr("id");
             $("#TxtClave").val(id);
             $('#CargaGif').show();
             $.ajax({
                 type: "POST",
                 url: 'tabla-tallmaqusadadet.php',
-                data: $("form").serialize(), // Adjuntar los campos del formulario enviado.
+                data: $("form").serialize(), 
                 success: function(data) {
-                    //$('#btnEnviar').removeAttr('disabled');
                     $('#CargaGif').hide();
-                    $("#DivMdlMaqDet").html(data); // Mostrar la respuestas del script PHP.
+                    $("#DivMdlMaqDet").html(data);
                     $("#DivMdlMaqDet").show();
                     $('#MdlMaqDet').modal('show')
                 },
@@ -224,7 +224,8 @@
                     alert('Algo salio mal :S');
                 }
             });
-            return false; // Evitar ejecutar el submit del formulario.	
+            return false;
+            */
         });
         $(document).on('click','#grid tr',function(){
             var id = $(this).attr("id");
