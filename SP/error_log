@@ -1,0 +1,162 @@
+[28-Sep-2018 16:24:19 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[28-Sep-2018 20:00:33 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[29-Sep-2018 19:43:23 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[30-Sep-2018 11:05:22 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[06-Oct-2018 12:59:45 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 12:59:45 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php:24
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(24): SoapClient->SoapClient('http://dwh.tayc...', Array)
+#1 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 13:00:55 America/Mexico_City] PHP Fatal error:  SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 13:00:55 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [WSDL] SOAP-ERROR: Parsing WSDL: Couldn't load from 'http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl' : failed to load external entity "http://dwh.taycosa.mx/WEB_SERVICES/DataLogs.asmx?wsdl"
+ in /home/taycosam/public_html/SR/comprobarusuario.php:24
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(24): SoapClient->SoapClient('http://dwh.tayc...', Array)
+#1 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 24
+[06-Oct-2018 15:42:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[09-Oct-2018 12:14:46 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[09-Oct-2018 12:15:06 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Error Fetching http headers in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[12-Oct-2018 09:48:34 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SRPRUEBAS/comprobarusuario.php on line 27
+[12-Oct-2018 17:18:11 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[12-Oct-2018 18:03:41 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[12-Oct-2018 19:24:40 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:07:11 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:07:20 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:07:22 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 11:33:13 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> There is already an open DataReader associated with this Command which must be closed first. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[13-Oct-2018 12:04:48 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:00:57 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:02:26 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:03:26 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:12:34 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[16-Oct-2018 09:12:48 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [HTTP] Could not connect to host in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 [internal function]: SoapClient->__doRequest('<?xml version="...', 'http://dwh.tayc...', 'http://tempuri....', 1, 0)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#2 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#3 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[18-Oct-2018 13:19:19 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Invalid operation. The connection is closed. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
+[20-Oct-2018 12:07:03 America/Mexico_City] PHP Fatal error:  Uncaught SoapFault exception: [soap:Server] Server was unable to process request. ---> Procedure or function 'php_SP_CTRL_LOGIN' expects parameter '@sUser', which was not supplied. in /home/taycosam/public_html/SR/comprobarusuario.php:27
+Stack trace:
+#0 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->__call('LoginPortal', Array)
+#1 /home/taycosam/public_html/SR/comprobarusuario.php(27): SoapClient->LoginPortal(Array)
+#2 {main}
+  thrown in /home/taycosam/public_html/SR/comprobarusuario.php on line 27
